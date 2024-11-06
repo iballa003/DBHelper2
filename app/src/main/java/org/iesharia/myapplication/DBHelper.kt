@@ -39,9 +39,18 @@ class DBHelper(context: Context, factory: SQLiteDatabase.CursorFactory? = null) 
         db.close()
     }
 
-    fun deleteName(id : Int){
+    fun deleteName(id : String){
         val db = this.writableDatabase
         db.delete(TABLE_NAME, "id=?", arrayOf(id.toString()))
+        db.close()
+    }
+
+    fun updateName(id : String, name : String, age : String){
+        val values = ContentValues()
+        values.put(NAME_COl, name)
+        values.put(AGE_COL, age)
+        val db = this.writableDatabase
+        db.update(TABLE_NAME,values,"id=?",arrayOf(id.toString()))
         db.close()
     }
 

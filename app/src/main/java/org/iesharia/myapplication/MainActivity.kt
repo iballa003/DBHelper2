@@ -173,12 +173,36 @@ fun MainActivity(modifier: Modifier) {
                 onClick = {
                     if (idValue.isNotEmpty()){
                         val id = idValue
-                        db.deleteName(id.toInt())
+                        db.deleteName(id)
+                        Toast.makeText(
+                            context,
+                            "Se ha borrado el registro con Id "+ id,
+                            Toast.LENGTH_LONG)
+                            .show()
                     }
                 }
             ){
                 Text(text = "Borrar")
             }
+
+        }
+        Button(
+            modifier = bModifier,
+            onClick = {
+                if (idValue.isNotEmpty() && nameValue.isNotEmpty() && ageValue.isNotEmpty()){
+                    val id = idValue
+                    val name = nameValue
+                    val age = ageValue
+                    db.updateName(id,name,age)
+                    Toast.makeText(
+                        context,
+                        "Se ha actualizado el registro con Id "+ id,
+                        Toast.LENGTH_LONG)
+                        .show()
+                }
+            }
+        ){
+            Text(text = "Actualizar")
         }
         Row {
             Text(
