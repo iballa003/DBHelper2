@@ -7,7 +7,7 @@
 <p>Los datos mostrados en pantalla.</p>
 
 ![emulador2](https://github.com/user-attachments/assets/bc5ed318-e0e9-4735-a055-d5bdb2b5073b)
-Creado nuevo usuario.
+<p>Creado nuevo usuario.</p>
 
 ![emulador3](https://github.com/user-attachments/assets/010d6aae-81af-437b-b999-2fe687d1d6e8)
 
