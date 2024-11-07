@@ -5,6 +5,7 @@
 ![emulador1](https://github.com/user-attachments/assets/7da74c2b-18de-422a-ab6f-15b6596683b2)
 
 <p>Los datos mostrados en pantalla.</p>
+
 ![emulador2](https://github.com/user-attachments/assets/bc5ed318-e0e9-4735-a055-d5bdb2b5073b)
 Creado nuevo usuario.
 
@@ -15,5 +16,7 @@ Creado nuevo usuario.
 ![emulador4](https://github.com/user-attachments/assets/81d0139c-a7cf-4f5e-9844-82d6addcbc51)
 
 <p>Actualizar un usuario.</p>
-![emulador5](https://github.com/user-attachments/assets/d05de13c-08ad-4cff-b275-0efd9027f554)
+
+![emulador5](https://github.com/user-attachments/assets/15aee706-7f4e-4ce2-91a5-94ac466d602f)
+
 
